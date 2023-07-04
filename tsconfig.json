@@ -1,0 +1,13 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+      "lib": ["ES6"],
+      "module": "commonjs",
+      "outDir": "build",
+      "sourceMap": true,
+      "strict": true,
+      "target": "ES6",
+      // "allowJs": true, // 타입스크립트 내부에 자바스크립트 사용 가능
+      "esModuleInterop": true // CommonJS 모듈을 ES 모듈 형식으로 가져오는 데 사용되는 기본적인 import 문을 생성, allowJs 와 공존 불가
+  }    
+}
